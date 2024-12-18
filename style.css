@@ -1,0 +1,92 @@
+/* General Reset */
+body, h1, h2, h4, p, input, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f0f8ff, #e6e6fa);
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+   url("https://images.pexels.com/photos/28512542/pexels-photo-28512542.jpeg?cs=srgb&dl=pexels-nicosiegl01-28512542.jpg&fm=jpg&_gl=1*1f08aiy*_ga*NjQ3NDA3NDc1LjE3Mjc5MzEwMTQ.*_ga_8JE65Q40S6*MTczMzI3ODc3My43LjEuMTczMzI3ODc5MS4wLjAuMA..");
+background-size: cover;
+background-position: center;
+}
+
+/* Main container */
+main {
+    background: #e9ebe2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Form styling */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="search"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+input[type="search"]:focus {
+    border-color: #4caf50;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #45a049;
+}
+
+/* Weather information styling */
+#weather {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#weather img {
+    width: 100px;
+    height: auto;
+}
+
+#weather h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+#weather h4 {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#weather p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #444;
+}
